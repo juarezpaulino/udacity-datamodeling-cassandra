@@ -1,4 +1,4 @@
-# Project 1 - Data Modeling with Postgres
+# Project 2 - Data Modeling with Cassandra
 
 A startup called Sparkify hired you as a Data Engineer to help their Analytics team to get useful insights from event data. Initially, all the user activity is stored in a dataset folder consisting of CSV files.
 
