@@ -106,10 +106,11 @@ Designed the following physical model:
 |<td colspan="3">**user_by_song**| | |
 |-|-|-|
 | PT_KEY | song TEXT |  |
-| CL_KEY | user TEXT | ASC |
+| CL_KEY | user_id INT | ASC |
+|  | user TEXT |  |
 
 
-This model is composed by a partition key `song_id`. I included `user` as a clustering column so the row could be uniquely identified.
+This model is composed by a partition key `song`. I included `user_id` as a clustering column so the row could be uniquely identified.
     
 Answer:
     
